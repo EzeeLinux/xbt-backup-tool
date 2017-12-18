@@ -162,7 +162,7 @@ read -n 1 -s choice
 
         # Giving user a chance to close other apps and starting rsync.
 
-        echo "Close any running applications and press aby key to continue."
+        echo "Close any running applications and press any key to continue."
         read -n 1 -s
         echo $'\n'$"Restoring /home... Please DO NOT open any applications."
         sudo rsync -aH --delete --info=progress2 \

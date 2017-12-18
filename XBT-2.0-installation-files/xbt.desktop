@@ -2,7 +2,7 @@
 Version=1.0
 Name=XBT
 GenericName=XBT
-Comment=XBT Extnerabl USB drive backup tool.
+Comment=XBT External USB drive backup tool.
 Exec=/usr/local/bin/xbt
 TryExec=/usr/local/bin/xbt
 Icon=/usr/share/icons/xbt-icon.xpm

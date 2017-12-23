@@ -451,7 +451,7 @@ read -n 1 -s choice;
 			4) help;;
             5) log;;
             6) clear;echo $'\n'$"Refreshing USB Status...";sleep 2;clear;greeting;;
-            0) clear;echo $'\n'$"Exiting XBT... Goodbye!";sleep 2;exit;;
+            0) clear;echo $'\n'$"Exiting XBT... Goodbye!";sleep 2;tput cnorm;sleep 2;exit;;
             *) echo "Not a valid choice: Please try again.";sleep 2;clear;greeting;;
 	esac
 

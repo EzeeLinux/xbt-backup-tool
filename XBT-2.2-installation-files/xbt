@@ -635,27 +635,23 @@ greeting
 
 # Checking for command line arguments:
 
-if [ "$1" == "--help" ]; then
-	help
-fi
-
-if [ "$1" == "--log" ]; then
-	log
-fi
-
-if [ "$1" == "--backup" ]; then
+case "$1" in
+    --help)
+	help;;
+    --log)
+	log;;
+    --backup)
 	backup
-fi
-
-if [ "$1" == "--restore" ]; then
+	;;
+    --restore)
 	restore
-fi
-
-if  [ -n "$1"  ]; then
-    echo "XBT Error: Invalid argument. Exiting to Main Menu."
-    sleep 3
-    greeting
-fi
+	;;
+    *)
+	echo "XBT Error: Invalid argument. Exiting to Main Menu."
+	sleep 3
+	greeting
+	;;
+esac
 
 # Greeting user and offering Main Menu:
 

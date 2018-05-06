@@ -1,13 +1,13 @@
 # xbt-external_backup_tool
 XBT -- External Backup Tool (Version 2.2)
 
-1. Description:
+## Description
 
  XBT is a program that makes keeping all of your user data safely backed up on
  a dedicated External USB drive easy. XBT works with Ubuntu 16.04 onward and
  the Linux Mint 18.x series.
 
-2. Installation:
+## Installation
 
  Unzip the 'XBT-2.2-installation-files' directory by dragging it out of the
  Archive Manager application onto your desktop and click on it see the files
@@ -27,7 +27,7 @@ XBT -- External Backup Tool (Version 2.2)
  archive. It is a good idea to log out and log back in before using XBT. The
  desktop needs to find the launcher and icon files.
 
-3. Manual Installation:
+## Manual Installation
 
  XBT can be run from a terminal simply by adding the script to either your ~/bin
  directory or /usr/local/bin. Open a terminal in 'XBT-2.2-installation-files'
@@ -42,7 +42,7 @@ XBT -- External Backup Tool (Version 2.2)
  Note: XBT won't work from a TTY or through SSH if the XBT Drive is not mounted
  at /media/user-name/XBT_Drive.
 
-4. Un-installation
+## Un-installation
 
  The xbt-un-install.sh script will remove XBT if it was installed with the
  xbt.install.sh script explained above. It can be run from anywhere within
@@ -70,16 +70,16 @@ XBT -- External Backup Tool (Version 2.2)
  remove them. XBT does not create any configuration files on the system.
  One called xbt-backup.log and that is placed on the dedicated XBT Drive.
 
-5. License.
+## License
 
  XBT is free softare. You can redistribute it and/or modify it under the
  terms of the GNU General Public License Version 2.0. as published by
  the Free Software Foundation. A copy of the GNU GPL 2.0 is provided with the
  software.
 
-5. Contents if Help Page:
+## Contents if Help Page
 
- Commands:
+### Commands
 
  xbt = Starts XBT program with menu options.
  xbt --backup = Fully backs up host's /etc and /home directories to XBT_Drive.
@@ -87,7 +87,7 @@ XBT -- External Backup Tool (Version 2.2)
  xbt --help = Prints this help information.
  xbt --log = Prints log from XBT drive in interactive viewer. ("q" to exit.)
 
- Description:
+### Description
 
  XBT is a program that makes keeping all of your user data safely backed up on
  a dedicated External USB drive.
@@ -111,7 +111,7 @@ XBT -- External Backup Tool (Version 2.2)
  last several backups by using the XBT Log viewer. Press "q" to exit when
  you're done.
 
- Requirements:
+### Requirements
 
  XBT is designed to work with Ubuntu and Linux Mint but it should run
  on many other Linux distributions. You need to prepare an XBT Drive.
@@ -126,7 +126,7 @@ XBT -- External Backup Tool (Version 2.2)
  selected drive will be "blanked," formatted with ext4 and labeled 'XBT_Drive."
  This option is available in the Main Menu.
 
- Feedback:
+### Feedback
 
  Feel free to contact EzeeLinux with comments and suggestions for XBT and
  future projects.

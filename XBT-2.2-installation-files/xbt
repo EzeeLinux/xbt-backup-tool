@@ -477,7 +477,7 @@ Press the number of your choice:
     2 - Restore.
     3 - Setup XBT Drive.
     4 - Get some help.
-    5 - View backup log. ('q' exits.}
+    5 - View backup log. ('q' exits.)
     6 - Refresh USB Status.
     0 - Exit XBT.
 _EOF_

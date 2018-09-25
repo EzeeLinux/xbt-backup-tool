@@ -11,46 +11,46 @@ XBT -- External Backup Tool (Version 3.0)
 
 2. Installation:
 
- Unaip the file 'xbt_3.0.deb' and put it anywhere you wish. If you are working
+ Unaip the file `xbt_3.0.deb` and put it anywhere you wish. If you are working
  with a gra[hic desktop environment, simply drag on to the desktop and then
  double ckick it. Your distribution's deb package installer should open up and
  install it automatically.
 
  You can also install any deb package from a command line with these commands:
 
- sudo dpkg -i /path/to/deb/file followed by sudo apt-get install -f .
- 
+    sudo dpkg -i /path/to/deb/file followed by sudo apt-get install -f .
+
  --or--
 
- sudo apt install ./name.deb (or /path/to/package/name.deb ). ...
+    sudo apt install ./name.deb` (or /path/to/package/name.deb ). ...
 
  --or--
 
  Install gdebi, navaigate to the directory containing the deb file you wish to
  install and then run:
 
- suod gdebi name.deb
+    sudo gdebi name.deb
 
  XBT will now be avaialble in your desktop menu.
  
 3. Manual Installation:
 
- Copy the file 'xbt' to either to /usr/local/bin or ~/bin, if you have a local
+ Copy the file 'xbt' to either to `/usr/local/bin` or `~/bin`, if you have a local
  bin folder setup. 
 
- The program is immediately available for use by running the command 'xbt' in
+ The program is immediately available for use by running the command `xbt` in
  any terminal. XBT offers some direct terminal commands to jump to common
  functions. You can reead more about the in this file or in the only-line help
  page.
 
  Note: XBT won't work from a TTY or through SSH if the XBT Drive is not mounted
- at /media/user-name/XBT_Drive.
+ at `/media/user-name/XBT_Drive`.
 
 4. Un-installation
 
  You can un-install XBT simply by running this command:
 
- sudo apt remove xbt
+    sudo apt remove xbt
 
  You can slo search for 'xbt' in your graphic software manager and choose to
  riomve it that way.

@@ -2,79 +2,83 @@
 XBT -- External Backup Tool (Version 3.0)
 
 1. Description:
-
+	
  XBT is a program that makes keeping all of your user data safely backed up on
  a dedicated External USB drive easy. XBT works with Ubuntu 16.04 onward and
  the Linux Mint 18.x series and up. It also works with Debian 9 "Stretch" 
- and  distributions based on Debian like Linux Mint Debian Edition 3 "Cindy,"
+ and  distributions based on Debian such as Linux Mint Debian Edition 3 "Cindy,"
  and MX Linux. 
-
+	
 2. Installation:
-
- Unaip the file 'xbt_3.0.deb' and put it anywhere you wish. If you are working
- with a gra[hic desktop environment, simply drag on to the desktop and then
- double ckick it. Your distribution's deb package installer should open up and
+	
+ Unzip 'xbt_3.0.deb' from the downloaded zip file and put it anywhere you wish. If you are working
+ with a graphical desktop environment, simply drag it onto the desktop and then
+ double click it. Your distribution's deb package installer should open up and
  install it automatically.
-
- You can also install any deb package from a command line with these commands:
-
- sudo dpkg -i /path/to/deb/file followed by sudo apt-get install -f .
- 
+	
+ You can also install any deb package from the command line with these commands:
+	
+		sudo dpkg -i /path/to/deb/file
+		
+	followed by:
+		
+		sudo apt-get install -f
+		
  --or--
-
- sudo apt install ./name.deb (or /path/to/package/name.deb ). ...
-
+	
+		sudo apt install ./name.deb (or /path/to/package/name.deb ). ...
+	
  --or--
-
- Install gdebi, navaigate to the directory containing the deb file you wish to
+	
+ Install gdebi, navigate to the directory containing the deb file you wish to
  install and then run:
-
- suod gdebi name.deb
-
- XBT will now be avaialble in your desktop menu.
- 
+		
+		sudo gdebi name.deb
+	
+ XBT will now be available in your desktop's menu.
+	
 3. Manual Installation:
-
- Copy the file 'xbt' to either to /usr/local/bin or ~/bin, if you have a local
+	
+ Copy the file 'xbt' to either _/usr/local/bin_ or _~/bin,_ if you have a local
  bin folder setup. 
 
- The program is immediately available for use by running the command 'xbt' in
+ The program will be immediately available for use by running the command 'xbt' in
  any terminal. XBT offers some direct terminal commands to jump to common
- functions. You can reead more about the in this file or in the only-line help
+ functions. You can read more about this in this readme file or in the on-line help
  page.
 
- Note: XBT won't work from a TTY or through SSH if the XBT Drive is not mounted
+ __Note:__ XBT won't work from a TTY or through SSH if the XBT Drive is not mounted
  at /media/user-name/XBT_Drive.
 
 4. Un-installation
-
+	
  You can un-install XBT simply by running this command:
+	
+		sudo apt-get remove xbt
+	
+ You can also search for 'xbt' in your graphic software manager and choose to
+ remove it that way.
+	
+ __Note:__ XBT only consists of three files
 
- sudo apt remove xbt
+* __xbt:__ automatically installed in _/usr/bin_
+* __xbt.desktop:__ automatically installed in _/user/share/applications_
+* __xbt-icon.xpm:__ automatically installed in _/usr/share/icons_
 
- You can slo search for 'xbt' in your graphic software manager and choose to
- riomve it that way.
-
- Note: XBT only consists of three files
-
-    xbt = automatically installed in /usr/bin
-    xbt.desktop = automatically installed in /user/share/application
-    xbt-icon.xpm = automatically installed in /usr/share/icons
-
- You can use any file search utility to look for these fiels if you want to
+ You can use any file search utility to look for these files if you want to
  remove them. XBT does not create any configuration files on the system.
 
- There is one called xbt-backup.log and that is placed on the dedicated
+ There is also a file called __xbt-backup.log.__ It is placed on the dedicated
  XBT Drive.
 
 5. License.
 
- XBT is free softare. You can redistribute it and/or modify it under the
+ XBT is free software. You can redistribute it and/or modify it under the
  terms of the GNU General Public License Version 2.0. as published by
  the Free Software Foundation. A copy of the GNU GPL 2.0 is provided with the
  software.
 
-6. Contents if Help Page:
+6. Contents of Help Page:
 
  Commands:
 
